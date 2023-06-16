@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png"/>
+	<title>Travel Agency</title>
+	<!-- bootstrap cdn -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<!-- local stylesheet  -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader" style="background: #1cc3b2 url('assets/images/loader.gif') no-repeat center center;"></div>
+
+
+    <!-- navbar -->
+    <nav class="navbar shadow-sm fixed-top navbar-expand-lg  bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h2>
+                    <span style="letter-spacing: 3px">Tra</span>
+                    <span style="color: #1cc3b2; letter-spacing: 3px">vel</span>
+                </h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="rooms.html">Rooms</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <button class="btn1">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero" style="background-image: url('assets/images/hero.jpg');">
+        <div class="container">
+            <div class="main">
+                <div class="hero-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 space-items">
+                                    <form action="">
+                                        <label for="">Check In</label>
+                                        <input type="date">
+                                    </form>
+                                </div>
+                                <div class="col-md-6 space-items">
+                                    <form action="">
+                                        <label for="">Check Out</label>
+                                        <input type="date">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-4 space-items">
+                                    <form action="">
+                                        <label for="">Room</label>
+                                        <select name="" id="">
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                        </select>
+                                    </form>
+                                </div>
+
+                                <div class="col-md-4 space-items">
+                                    <form action="">
+                                        <label for="">Adult</label>
+                                        <select name="" id="">
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                        </select>
+                                    </form>
+                                </div>
+
+                                <div class="col-md-4 space-items">
+                                    <form action="">
+                                        <label for="">Children</label>
+                                        <select name="" id="">
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 space-items">
+                            <label for=""></label>
+                            <button class="shadow">check availability</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- welcome -->
+    <div class="container">
+        <div class="welcome-main" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="welcome-image">
+                        <img src="assets/images/welcome1.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="welcome-text">
+                        <div>
+                            <h5>Hello 🖐</h5>
+                            <h2 class="pt-2 pb-2">Welcome To Our Website</h2>
+                            <p>Are you dreaming of your next adventure? Look no further than our travel website, your ultimate gateway to incredible destinations and unforgettable experiences. With the travel industry booming and more people eager to explore the world, we understand the importance of standing out in this competitive landscape. </p>
+                            <p>Join us on this journey and let us be your trusted companion in exploring the world. Visit our travel website today and embark on an adventure of a lifetime</p>
+                            <span class="signature">Paul Omondi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- break section -->
+    <div data-aos="fade-up" data-aos-duration="3000" class="break-main" style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/break.jpg');">
+        <div>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            
+        </div>
+    </div>
+
+    <!-- features section -->
+    <div class="container">
+        <div class="feature-main" data-aos="fade-up" data-aos-duration="3000">
+            <div class="feature-title">
+                <div>
+                    <h5>Explore ✈</h5>
+                    <h2 class="pt-2">Some Features that Make us Unique</h2>
+                    <p>Adventure awaits. Explore the world with ease.</p>
+                </div>
+            </div>
+
+            <div class="feature-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-wrapper">
+                            <div class="feature-child">
+                                <p>
+                                    <span class="feature-icon"><i class="bi bi-person-gear"></i></span>
+                                    <span class="feature-duty">Expert Technicians</span>
+                                </p>
+                                <p class="feature-statement">Looking for your next adventure? Look no further than our travel website! With a vast selection of destinations, unbeatable prices, and user-friendly booking tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-wrapper feature-active">
+                            <div class="feature-child">
+                                <p>
+                                    <span class="feature-icon"><i class="bi bi-person-vcard"></i></span>
+                                    <span class="feature-duty">Professional Services</span>
+                                </p>
+                                <p class="feature-statement">Looking for your next adventure? Look no further than our travel website! With a vast selection of destinations, unbeatable prices, and user-friendly booking tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-wrapper">
+                            <div class="feature-child">
+                                <p>
+                                    <span class="feature-icon"><i class="bi bi-mouse"></i></span>
+                                    <span class="feature-duty">Great Support</span>
+                                </p>
+                                <p class="feature-statement">Looking for your next adventure? Look no further than our travel website! With a vast selection of destinations, unbeatable prices, and user-friendly booking tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mini contact -->
+    <!-- <div class="container"> -->
+        <div data-aos="fade-up" data-aos-duration="3000" class="mini-contact-main" style="background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/mini2.png');">
+            <div class="container">
+                <div class="mini-child">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div style="padding-top: 8vh;">
+                                <div>
+                                    <h2>Contact Us Now!</h2>
+                                    <p>Contact (+254) 912-678-899 to book directly or for advice</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="mini-btn">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <!-- blog section -->
+    <div class="container">
+        <div class="blog-main" data-aos="fade-up" data-aos-duration="3000">
+            <div class="blog-title">
+                <div>
+                    <h5>Our Blog</h5>
+                    <h2>Latest News and Events</h2>
+                </div>
+            </div>
+
+            <div class="blog-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="blog-item-main">
+                            <img src="assets/images/blog1.jpg" alt="">
+                            <div class="body-title pt-3">
+                                <h6 class="text-muted">Jan 02, 2023</h6>
+                            </div>
+                            <div class="blog-item-body">
+                                <h5>Learn How to Motivate Yourself</h5>
+                                <p class="text-muted">How many free autoresponders have you tried? And how many emails did you get through using them?</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-item-main">
+                            <img src="assets/images/blog2.jpg" alt="">
+                            <div class="body-title pt-3">
+                                <h6 class="text-muted">Jan 02, 2023</h6>
+                            </div>
+                            <div class="blog-item-body">
+                                <h5>How Technology Aligns With Nature</h5>
+                                <p class="text-muted">How many free autoresponders have you tried? And how many emails did you get through using them?</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-item-main">
+                            <img src="assets/images/blog3.jpg" alt="">
+                            <div class="body-title pt-3">
+                                <h6 class="text-muted">Jan 02, 2023</h6>
+                            </div>
+                            <div class="blog-item-body">
+                                <h5>The All New Smart Vehicles</h5>
+                                <p class="text-muted">How many free autoresponders have you tried? And how many emails did you get through using them?</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer-section -->
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="mb-3">
+                            <span style="color: white; letter-spacing: 3px">Tra</span>
+                            <span style="color: #1cc3b2; letter-spacing: 3px">vel</span>
+                        </h3>
+                        <h3 style="color: #1cc3b2;">+254 912-678-899</h3>
+                        <p>info.mywebsite@gmail.com</p>
+                        <p>Nairobi, Kenya. Paul is an aspiring frontend web dev</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="mb-4">Our Blog</h4>
+                        <div>
+                            <h5>Frelance Design Tricks</h5>
+                            <span><i class="bi bi-clock-history"></i> Jan 02, 2023</span>
+                        </div>
+                        <div class="pt-2">
+                            <h5 class="mb-4">Online Free Advertising</h5>
+                            <span><i class="bi bi-clock-history"></i> Jan 02, 2023</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="mb-4">Links</h4>
+                        <div>
+                            <div class="pb-2"><span><i class="bi bi-play-fill"></i> About Us</span></div>
+                            <div class="pb-2"><span><i class="bi bi-play-fill"></i> Our Room</span></div>
+                            <div class="pb-2"><span><i class="bi bi-play-fill"></i> Contact Us</span></div>
+                            <div class="pb-2"><span><i class="bi bi-play-fill"></i> News</span></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="mb-4">Subscribe Newsletter</h4>
+                        <div >
+                            <p>Subscribe our newsletter gor get notification about new updates.</p>
+                            <div class="newsletter">
+                                <span><input type="text" placeholder="Enter your email..."></span>
+                                <span class="mt-1"><button><i class="bi bi-send-check"></i></button></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal for youtube video-->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background: transparent; border: none;">
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
+                <iframe width="800" controls height="500" src="https://www.youtube.com/embed/A-yYTkfrHR0" title="Kalima Resort and Spa, Promotional Video" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/Js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+</body>
+</html>

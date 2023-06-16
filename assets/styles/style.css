@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+	font-family: "poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+//navbar styles
+.navbar{
+    background: #fff; !important
+	position: fixed-top; !important
+}
+.navbar .navbar-brand h2 span {
+	letter-spacing: 5px;
+}
+.navbar .navbar-nav .nav-link {
+	font-size: 17px;
+}
+.navbar .navbar-nav .nav-link:hover {
+	color: #1cc3b2;
+	transition: ease-in 1s;
+}
+.navbar .navbar-nav .btn1 {
+	padding: 10px 22px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #1cc3b2;
+	color: white;
+	font-size: 17px;
+}
+/* styles for hero section */
+.hero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/* styles for search section */
+.main{
+	background-color: #fff;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.hero .main .hero-content{
+	padding: 20px 10px;
+}
+
+.hero .main .hero-content label{
+	font-weight: 600; !important
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.hero .main .hero-content input{
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	color: #808080;
+}
+.hero .main .hero-content input:focus{
+	outline: 1px solid ;
+	color :#1cc3b2;
+	transition: ease-in 1s;
+}
+.hero .main .hero-content select{
+	width: 100%;
+	padding: 12px 8px;
+	margin-top: 5px;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	color: #808080;
+}
+.hero .main .hero-content select:focus{
+	outline: 1px solid #1cc3b2;
+}
+
+.hero .main .hero-content select option{
+	padding: 10px 0 10px 0;
+}
+.hero .main .hero-content select option:hover{
+	background-color: #d3d3d3;
+}
+.hero .main .hero-content button{
+	width: 100%;
+	border-radius: 2px;
+	margin-top: 5px;
+	padding: 11px 0 11px 0;
+	border: 0;
+	background-color: #1cc3b2;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.hero .main .hero-content button:hover{
+	background-color: #fff;
+	color: #1cc3b2;
+	transition: ease-in 1s;
+}
+
+/* welcome section */
+.welcome-main{
+	margin: 50px 0 50px 0;
+}
+.welcome-image img{
+	border-radius: 5px;
+}
+.welcome-text{
+	min-height: 600px;
+	display: flex;
+	align-items: center;
+}
+.welcome-text h5{
+	color: #1cc3b2;
+}
+.welcome-text p{
+	font-size: 18px;
+	line-height: 34px;
+	color: #6c757d;
+}
+.signature{
+	font-family: 'pacifico', cursive;
+	font-size: 24px;
+	color: #1cc3b2;
+}
+
+/* break section */
+.break-main{
+	min-height: 50vh;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.break-main button{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: #1cc3b2;
+	border: 4px solid white;
+	color: white;
+	font-size: 28px;
+}
+
+.break-main button:hover{
+	background-color: white;
+	border: 5px solid #1cc3b2;
+	color: #1cc3b2;
+	transition: ease-in 1s;
+}
+.close{
+	width: 10%;
+	float: right;
+	font-size: 30px;
+	background: none;
+	border: none;
+	color: white;
+}
+
+/* styles for features section */
+.feature-main{
+	margin-bottom: 30px;
+}
+.feature-body{
+	margin-top: 20px;
+}
+
+.feature-main .feature-title{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.feature-main .feature-title h5{
+	color: #1cc3b2;
+}
+.feature-main .feature-title p{
+	font-size: 18px;
+	color: #6c757d;
+}
+.feature-wrapper{
+	background: #f9f9f9;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.feature-active{
+	background: #1cc3b2;
+	color: #fff;
+}
+.feature-wrapper:hover{
+	background: #1cc3b2;
+	color: #fff;
+	transition: ease-in-out .5s;
+	cursor: pointer;
+}
+
+.feature-wrapper .feature-child{
+	padding: 15px;
+}
+
+.feature-wrapper .feature-child .feature-icon{
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.feature-wrapper .feature-child .feature-duty{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.feature-wrapper .feature-child .feature-statement{
+	font-size: 16px;
+	opacity: .7;
+}
+
+/* mini contact section */
+.mini-contact-main{
+	min-height: 25vh;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.mini-child h2{
+	color: #fff;
+	margin-bottom: 5px;
+}
+.mini-child p{
+	color: white;
+	font-size: 18px;
+}
+.mini-btn{
+	padding: 11px 0 11px 0;
+	border: 0;
+	background-color: #1cc3b2;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 18px;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 9vh;
+}
+.mini-btn:hover{
+	background-color: #fff;
+	color: #1cc3b2;
+	transition: ease-in 1s;
+}
+
+/* styles for footer section */
+.footer-main{
+	background: #0E2737;
+	min-height: 40vh;
+}
+
+.footer{
+	padding: 50px 0 20px 0;
+}
+.footer h4{
+	color: white;
+}
+.footer p{
+	font-size: 17px;
+	color: #6c757d;
+}
+.footer h5{
+	color: white;
+}
+.footer span{
+	color: #6c757d;
+}
+.newsletter input{
+	padding: 7px 2px 7px 5px;
+	border-radius: 5px;
+	border: none;
+	background: #3e525f;
+	width: 80%;
+}
+.newsletter input:focus{
+	border: none;
+}
+.newsletter button{
+	padding: 3px 8px 5px 8px;
+	border: none;
+	background: #1cc3b2;
+	color: white;
+	border-radius: 5px;
+}
+.newsletter i{
+	font-size: 20px;
+}
+
+/* styles for blog section */
+.blog-main{
+	margin-bottom: 50px;
+}
+.blog-title{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.blog-title h5{
+	color: #1cc3b2;
+}
+.blog-item-main img{
+	width: 100%;
+	height: 250px;
+	border-radius: 2px;
+}
+.blog-item-body p{
+	line-height: 30px;
+}
+.blog-item-body h5{
+	color: #1cc3b2;
+}
+.blog-item-body i{
+	font-size: 18px;
+	color: #1cc3b2;
+	cursor: pointer;
+}
+
+/* styles for the rooms page */
+.room-hero{
+	background-size: cover;
+	min-height: 50vh;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.room-hero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.room-hero h2{
+	color: white;
+}
+.room-hero h6{
+	color: white;
+}
+.room-item-image img{
+	width: 100%;
+	height: 250px;
+	border-radius: 5px;
+}
+.room-details h6{
+	font-weight: bold;
+}
+.room-buttons{
+	margin-top: 30px;
+}
+.room-buttons button{
+	padding: 7px 13px 7px 13px;
+	border: none;
+	border-radius: 3px;
+}
+.room-buttons button:hover{
+	color: #fff;
+	background: #1cc3b2;
+}
+
+/* room contact section */
+.room-contact-section p{
+	font-size: 20px;
+	font-weight: 500;
+}
+.myday input{
+	padding: 10px 3px 10px 3px;
+	border: 2px solid #1cc3b2;
+	border-radius: 5px;
+	color: #6c757d;
+}
+.myday select{
+	padding: 12px 3px 12px 3px;
+	border: 2px solid #1cc3b2;
+	border-radius: 5px;
+	color: #6c757d;
+}
+.room-check-btn{
+	padding: 12px 0 12px 0;
+	border: none;
+	border-radius: 5px;
+	background: #1cc3b2;
+	color: #fff;
+}
+.room-contact-section{
+	background: #fff;
+	border-radius: 5px;
+	position: sticky;
+	top: 70px;
+}
+.room-contact-child{
+	padding: 20px 10px 20px 10px;
+}
+
+/* styles for about section */
+.about-main{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about-title{
+	color: #1cc3b2;
+}
+.about-statement{
+	font-size: 18px;
+	line-height: 30px;
+}
+.about-img:hover{
+	cursor: pointer;
+	transform: scale(0.95);
+}
+.about-img1:hover{
+	cursor: pointer;
+	transform: scale(0.95);
+}
+.about-break{
+	min-height: 40vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* styles for testimonial section */
+.testimonial-main{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.testimonial-text{
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+.testimonial-text h5{
+	color: #1cc3b2;
+}
+.testimonial-text p{
+	font-size: 18px;
+	line-height: 30px;
+}
+/* contact section */
+.contact-text h3{
+	color: #1cc3b2;
+}
+.contact-text p{
+	font-size: 22px;
+}
+.contact-main{
+	min-height: 500px;
+	margin-top: 120px;
+	margin-bottom:10px;
+}
+.contact-main{
+	background-color: #fff;
+}
+.contact-text{
+	padding: 20px 20px 20px 20px;
+}
+.contact-form label{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.contact-form input{
+	width: 100%;
+	padding: 10px 5px 10px 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 2px solid #f1f1f1;
+}
+.contact-form input:focus{
+	outline: none;
+}
+.contact-message label{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.contact-message textarea{
+	padding-top: 10px;
+	padding-left: 5px;
+	color: #6c757d;
+	border-radius: 5px;
+	border: 2px solid #f1f1f1;
+}
+.contact-message textarea:focus{
+	outline: none;
+}
+.contact-btn{
+	padding: 10px 18px 10px 18px;
+	background: #1cc3b2;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	margin-top:5px;
+	float: right;
+}
+
+/* styles for preloader */
+#preloader{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 999999;
+}
+
+/* lets edit the custom scroll bar to one that conforms to our design */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #1cc3b2;
+}
+/* media queries */
+@media only screen and (max-width: 600px){
+	.space-items{
+		margin-bottom: 10px;
+	}
+	.mini-btn{
+		margin-top: 3vh;
+	}
+	.mini-contact-main{
+		height: 30vh;
+	}
+	.about-img{
+		height: 127px;
+	}
+	.about-image-main{
+		margin-top: 15px;
+	}
+	.contact-image img{
+		display: none;
+	}
+}
